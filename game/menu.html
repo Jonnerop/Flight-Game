@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Main-menu.css" rel="stylesheet">
+    <script src="Main-menu.js" defer></script>
+    <title>Pilots of Fate</title>
+</head>
+<body>
+    <div class="screen">
+        <i class="fas fa-volume-mute fa-2x" id="sound"></i>
+
+        <video autoplay loop muted id="videoBackground">
+            <source src="images/Cloud-background.mp4" type="video/mp4" />
+        </video>
+        <audio id="audioclick">
+            <source src="audio/wii-click.mp3"
+            type="audio/wav"
+            />
+
+        </audio>
+
+        <audio id="audioHover">
+            <source src="audio/wii-click.mp3"
+            type="audio/wav"
+            />
+        </audio>
+
+        <div class="menu">
+            <h1>Pilots of Fate</h1>
+            <ul>
+                <li><a id="new-player" href="game.html">New Game</a></li>
+                <li><a id="old-player" href="game.html">Continue Game</a></li>
+                <li><a href="#">Options (Coming soon!)</a></li>
+                <li><a href="#">Quit (Coming soon!)</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

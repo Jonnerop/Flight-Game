@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" defer></script>
+    <link rel="stylesheet" href="css/mainpage_option.css">
+    <script src="game.js" defer></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="css/images/favicon.ico">
+    <title>Pilots of Fate</title>
+</head>
+<body style="background-image: url('css/images/red.jpg')">
+<div class="container">
+    <header class="page-header">
+        <h1 class="page-title game-name">
+            Pilots&nbsp;Of&nbsp;Fate&nbsp;
+        </h1>
+        <nav>
+            <ul class="flex-wrap nav-menu">
+                <li id="menu-button">
+                    <a class="button button-blue save-button" href="menu.html">Menu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-wrap main-background-color">
+        <div id="map">
+            <!-- leaflet -->
+        </div>
+        <div class="items">
+            <section class="item">
+                <table>
+                    <tr class="resources-text">
+                        <td class="text-size">Player Name: <span id="player-name"></span></td>
+                        <td class="text-size">Money: <span id="money"></span> JETT</td>
+                        <td class="text-size">Battery: <span id="battery"></span> %</td>
+                        <td class="text-size">Rounds left: <span id="rounds-left"></span></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="game-window">
+                <!-- game content goes here -->
+            </section>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <p class="page-title">JETT Productions™</p>
+    </footer>
+    <div class="flight-destination hide">
+        <h2>You have arrived at your destination.</h2>
+        <p>
+            <span id="destination-reached">Helsinki-Vantaa Airport</span>
+        </p>
+    </div>
+</div>
+<div id="player-modal" class=""> <!-- In order to hide submit, add class="hide" -->
+    <form id="player-form">
+        <input name="username" id="player-input" type="text" placeholder="Please provide the pilot's name" required>
+        <input type="submit" value="Embark on a journey!">
+    </form>
+</div>
+</body>
+</html>

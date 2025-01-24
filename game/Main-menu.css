@@ -1,0 +1,126 @@
+/* Variables */
+:root{
+    --color1: rgb(7, 9, 12);
+    --color2: rgb(200, 256, 256);
+    --color3: rgb(227, 165, 250);
+    --color4: rgb(178, 178, 21)
+}
+
+body{
+margin: 0;
+font-family: "Roboto", sans-serif;
+}
+.screen {
+height: 100vh;
+width: 100%;
+overflow: hidden;
+position: relative;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+
+video {
+position: absolute;
+min-Width: 100%;
+min-height: 100vh;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+z-index: -1;
+}
+
+audio {
+display: none;
+}
+.menu{
+color: var(--color2);
+margin-left: 4em;
+text-transform: uppercase;
+}
+.menu h1 {
+font-size: 4.5em;
+letter-spacing: З0px;
+display: block;
+margin-bottom: 0.5em;
+text-shadow: #FC0 1px 0 10px;
+text-decoration-line: underline;
+text-decoration-thickness: 5px;
+text-underline-offset: 0.5rem;
+}
+.menu h3 {
+font-weight: 300;
+font-size: 2.5em;
+text-align: center;
+letter-spacing: 10px;
+position: relative;
+}
+.menu h3::before,
+.menu h3::after {
+content: "";
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: var(--color3);
+width: 3em;
+height: Зpх;
+}
+
+.menu h3::before{
+left: 0;
+}
+.menu h3::after {
+right: 0;
+}
+.menu ul {
+list-style: none;
+padding: 0;
+}
+
+.menu li {
+margin: 1em 0;
+}
+.menu li a {
+    font-size: medium;
+text-decoration: none;
+color: var(--color2);
+font-weight: 700;
+text-shadow: #FC0 1px 0 10px;
+}
+
+#sound {
+position: absolute;
+right: 0;
+top: 0;
+margin: 1em;
+color: #000000;
+cursor: pointer;
+}
+.menu li a:hover,
+#sound:hover {
+color: var(--color3);
+}
+
+@media screen and (max-width: 800px) {
+    .menu h1{
+    font-size: 3em;
+    }
+    .menu h3 {
+    font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu h1 {
+    letter-spacing: 5px;
+}
+.menu h3::before,
+.menu h3::after {
+    display: none;
+    }
+}
+@media screen and (max-height: 450px) {
+    .screen,
+    video {
+        height: 35em;
+        }
+}
