@@ -1,10 +1,10 @@
 # Flight Game
 
-Flight Game is a dynamic aviation simulation game developed as a second-year software project at Metropolia University of Applied Sciences. It combines real-world airport data with engaging storytelling and decision-making mechanics, offering players an immersive and educational experience.
+Flight Game is a dynamic aviation simulation game developed as a first-year software project at Metropolia University of Applied Sciences. It combines real-world airport data with engaging storytelling and decision-making mechanics, offering players an immersive and educational experience.
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Real-World Airport Database**: Utilizes a **MariaDB** database for accurate airport details and locations.  
 - **Dynamic Storytelling**: Engaging narrative with karma-based decision-making and multiple endings.  
@@ -15,7 +15,7 @@ Flight Game is a dynamic aviation simulation game developed as a second-year sof
 
 ---
 
-## 🔧 Technical Specifications
+## Technical Specifications
 
 - **Backend**: Python with Flask for game state management and server logic.  
 - **Database**: MariaDB for storing airport data, player progress, and decisions.  
@@ -27,7 +27,7 @@ Flight Game is a dynamic aviation simulation game developed as a second-year sof
 
 ---
 
-## 📦 Components
+## Components
 
 - Python Backend  
 - JavaScript Frontend  
@@ -36,7 +36,7 @@ Flight Game is a dynamic aviation simulation game developed as a second-year sof
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites  
 - Python 3.x  
@@ -65,7 +65,7 @@ Flight Game is a dynamic aviation simulation game developed as a second-year sof
 
 ---
 
-## 🔧 Usage
+## Usage
 
 1. **Start a New Game**: Enter a username and begin the journey.  
 2. **Make Decisions**: Navigate events and make choices to influence outcomes.  
@@ -74,7 +74,7 @@ Flight Game is a dynamic aviation simulation game developed as a second-year sof
 
 ---
 
-## ⚙️ Troubleshooting
+## Troubleshooting
 
 - **Database Issues**: Ensure the MariaDB server is running, and credentials are correctly configured.  
 - **Frontend Errors**: Verify the JavaScript console for errors and ensure all files are loaded correctly.  
@@ -82,7 +82,7 @@ Flight Game is a dynamic aviation simulation game developed as a second-year sof
 
 ---
 
-## 🤝 Contributors
+## Contributors
  
 - Eetu Oinonen
 - Topias Aho
