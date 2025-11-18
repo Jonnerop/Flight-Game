@@ -1,6 +1,6 @@
 # Flight Game
 
-Flight Game is a dynamic aviation simulation game developed as a first-year software project at Metropolia University of Applied Sciences. It combines real-world airport data with engaging storytelling and decision-making mechanics, offering players an immersive and educational experience.
+Flight Game is a dynamic aviation simulation game developed as a first-year software project at Metropolia University of Applied Sciences. It combines real-world airport data with engaging storytelling and decision-making mechanics, offering players an immersive and fun experience.
 
 ---
 
