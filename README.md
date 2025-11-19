@@ -47,8 +47,8 @@ Flight Game is a dynamic aviation simulation game developed as a first-year soft
 
 1. **Clone the Repository**:  
    ```bash  
-   git clone https://github.com/your-repo/flight_game.git  
-   cd flight_game  
+   git clone https://github.com/Jonnerop/Flight-Game.git  
+   cd Flight-Game  
    ```  
 
 2. **Set Up the Database**:  
