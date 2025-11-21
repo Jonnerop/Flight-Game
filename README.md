@@ -27,15 +27,6 @@ Flight Game is a dynamic aviation simulation game developed as a first-year soft
 
 ---
 
-## Components
-
-- Python Backend  
-- JavaScript Frontend  
-- MariaDB Database  
-- Real-World Airport Dataset  
-
----
-
 ## Getting Started
 
 ### Prerequisites  
