@@ -6,24 +6,24 @@ Flight Game is a dynamic aviation simulation game developed as a first-year soft
 
 ## Features
 
-- **Real-World Airport Database**: Utilizes a **MariaDB** database for accurate airport details and locations.  
-- **Dynamic Storytelling**: Engaging narrative with karma-based decision-making and multiple endings.  
-- **Event-Driven Gameplay**: Randomized in-game events affecting player progress and outcomes.  
-- **Fuel and Range Management**: Calculates fuel consumption and range based on real-world distances.  
-- **Interactive Frontend**: Built with JavaScript for a dynamic and visually appealing interface.  
-- **Scalable Backend**: Flask-based server managing game logic, events, and player state.  
+- **Real-World Airport Data**: Includes accurate airport details and locations used throughout gameplay.  
+- **Dynamic Storytelling**:  Narrative with karma-based decisions and multiple endings.  
+- **Event-Driven Gameplay**: Randomized events influencing player progress and outcomes.  
+- **Fuel and Range Management**: Calculates consumption and range using real-world distances.  
+- **Interactive Gameplay**: Responsive user interactions and visual feedback.  
+- **Scalable Architecture**: Reliable server logic handling events, state, and progression.  
 
 ---
 
 ## Technical Specifications
 
-- **Backend**: Python with Flask for game state management and server logic.  
-- **Database**: MariaDB for storing airport data, player progress, and decisions.  
-- **Frontend**: JavaScript-powered interactive game interface.  
-- **Libraries and Tools**:  
-  - **geopy** for distance calculations.  
-  - **Flask-CORS** for cross-origin requests.  
-  - **MySQL Connector** for database interactions.  
+- **Frontend Stack**: JavaScript for rendering the UI and handling user interactions.  
+- **Backend Framework**: Python (Flask) for server logic and game state management.  
+- **Database Layer**: MariaDB for storing airport data, player progress, and decisions.  
+- **Key Libraries & Tools**:  
+  - **geopy** for distance calculations  
+  - **Flask-CORS** for cross-origin communications  
+  - **MySQL Connector** for database operations
 
 ---
 
